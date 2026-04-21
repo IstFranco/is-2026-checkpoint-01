@@ -1,1 +1,1 @@
-# is-2026-chackpoint-01
+# is-2026-checkpoint-01
