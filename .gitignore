@@ -11,4 +11,7 @@ __pycache__/
 backend/.env
 
 # Archivos de sistema
+.env
+__pycache__/
+*.pyc
 .DS_Store
