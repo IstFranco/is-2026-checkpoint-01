@@ -1,7 +1,7 @@
 const statusText = document.getElementById("status");
 const tableBody = document.getElementById("teamTable");
 
-fetch("http://backend:5000/api/team")
+fetch(`http://${window.location.hostname}:5000/api/team`)
     .then(response => {
         if (!response.ok) {
             throw new Error("Error en la respuesta del servidor");
