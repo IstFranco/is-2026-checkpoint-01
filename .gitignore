@@ -1,0 +1,17 @@
+# Entornos virtuales
+venv/
+backend/venv/
+
+# Python basura
+__pycache__/
+*.pyc
+
+# Variables sensibles (CRÍTICO para aprobación)
+.env
+backend/.env
+
+# Archivos de sistema
+.env
+__pycache__/
+*.pyc
+.DS_Store

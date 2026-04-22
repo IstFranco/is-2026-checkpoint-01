@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint 01 - Frontend</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        #status {
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #eaeaea;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Grupo - Checkpoint 01</h1>
+
+    <p id="status">Verificando estado del backend...</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Legajo</th>
+                <th>Feature</th>
+                <th>Servicio</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+
+        <tbody id="teamTable">
+            <!-- Las filas se cargan desde app.js -->
+        </tbody>
+    </table>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
