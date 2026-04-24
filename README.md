@@ -27,4 +27,8 @@ Para ejecutar este proyecto es necesario contar con:
    ```bash
    git clone [https://github.com/IstFranco/is-2026-checkpoint-01.git](https://github.com/IstFranco/is-2026-checkpoint-01.git)
    cd is-2026-checkpoint-01
-# is-2026-checkpoint-01
+
+2. **Levantar los servicios**:
+   Asegurarse de configurar las variables de entorno en un archivo `.env` y luego ejecutar:
+   ```bash
+   docker compose up -d --build
