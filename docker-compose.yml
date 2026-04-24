@@ -62,5 +62,11 @@ services:
           cpus: '0.5'
           memory: 128M
 
+  portainer:
+    image: portainer/portainer-ce:latest
+    container_name: teamboard-portainer
+    ports:
+      - "9000:9000"
+
 volumes:
   pgdata:
